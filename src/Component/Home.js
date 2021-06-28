@@ -38,7 +38,7 @@ const useStyles = makeStyles ((theme) =>({
     },
     name:{
         color:'#63C0FF',
-        fontSize:'50px'
+        fontSize:'50px',
     },
     position:{
         color:'#63C0FF',
@@ -76,7 +76,7 @@ const Home = () => {
                                 <Typography className={styles.im} >I'm<span className={styles.name}> JOHN PAULO MORENO</span></Typography>
                                 <p className={styles.position} >
                                     <Typical
-                                        steps={['UI/UX Designer', 2000, 'Frontend Developer',1000]}
+                                        steps={['UI/UX Designer', 2000, 'Frontend Developer',2000]}
                                         loop={Infinity}
                                         wrapper="p"
                                     />

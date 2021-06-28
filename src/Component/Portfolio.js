@@ -84,7 +84,7 @@ const Portfolio = () => {
                 centered
             >
                 <Tab label="Web Design" {...a11yProps(0)} />
-                <Tab label="Item Two" {...a11yProps(1)} />
+                <Tab label="Mobile Design" {...a11yProps(1)} />
             </Tabs> 
             <TabPanel value={value} index={0}>
               <Galery/>

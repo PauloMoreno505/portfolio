@@ -62,7 +62,6 @@ const MobileGallery = () => {
         <>
         <ThemeProvider theme={theme}>
                 <Container display="flex">
-                    <div>
                         {images.map((src, index) => (
                             <img
                             src={src}
@@ -82,7 +81,6 @@ const MobileGallery = () => {
                             }}
                             />
                         )}
-                        </div>
                 </Container>
         </ThemeProvider>
         </>
