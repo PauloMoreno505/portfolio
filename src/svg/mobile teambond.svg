@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="830" viewBox="0 0 375 830">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_18318" data-name="Rectangle 18318" width="375" height="359" transform="translate(0 716.446)" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.801" y1="0.268" x2="0.85" y2="0.723" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00b97c"/>
+      <stop offset="1" stop-color="#009e6a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.682" y1="0.275" x2="-0.609" y2="2.274" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#006443" stop-opacity="0"/>
+      <stop offset="1" stop-color="#00a972"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="0.682" y1="0.725" x2="-0.609" y2="-1.274" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cdf" stop-opacity="0"/>
+      <stop offset="1" stop-color="#00b97c" stop-opacity="0.51"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="0.682" y1="0.725" x2="-0.609" y2="-1.274" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cdf" stop-opacity="0"/>
+      <stop offset="1" stop-color="#00b97c"/>
+    </linearGradient>
+    <filter id="Rectangle_18320" x="-13" y="159" width="402" height="390" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.129"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-iPhone_X_XS_11_Pro_1">
+      <rect width="375" height="830"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_X_XS_11_Pro_1" data-name="iPhone X, XS, 11 Pro – 1" clip-path="url(#clip-iPhone_X_XS_11_Pro_1)">
+    <rect width="375" height="830" fill="#f5f8ff"/>
+    <g id="Mask_Group_63" data-name="Mask Group 63" transform="translate(0 -716.446)" clip-path="url(#clip-path)">
+      <g id="Group_14308" data-name="Group 14308" transform="translate(-417.784 -378.725)">
+        <g id="Group_14307" data-name="Group 14307">
+          <g id="Group_14306" data-name="Group 14306">
+            <g id="Group_14300" data-name="Group 14300">
+              <rect id="Rectangle_1" data-name="Rectangle 1" width="1092.549" height="1554.553" transform="translate(180.293)" fill="url(#linear-gradient)"/>
+              <rect id="Rectangle_17712" data-name="Rectangle 17712" width="120.954" height="1580.33" transform="translate(982.243 849.957) rotate(30)" fill="url(#linear-gradient-2)"/>
+              <rect id="Rectangle_17714" data-name="Rectangle 17714" width="48.58" height="658.305" transform="translate(661.54 1136.096) rotate(30)" fill="url(#linear-gradient-2)"/>
+              <rect id="Rectangle_17715" data-name="Rectangle 17715" width="48.58" height="658.305" transform="translate(621.883 906.085) rotate(30)" fill="url(#linear-gradient-2)"/>
+              <rect id="Rectangle_17716" data-name="Rectangle 17716" width="48.58" height="658.305" transform="translate(783.486 1129.156) rotate(30)" fill="url(#linear-gradient-2)"/>
+              <rect id="Rectangle_17713" data-name="Rectangle 17713" width="310.316" height="1330.491" transform="translate(665.245 256.647) rotate(30)" fill="url(#linear-gradient-2)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_37218" data-name="Group 37218" transform="translate(332.102 407.262)">
+      <rect id="Rectangle_17839" data-name="Rectangle 17839" width="199.208" height="854.115" transform="translate(244.797 370.511) rotate(150)" fill="url(#linear-gradient-7)"/>
+      <rect id="Rectangle_17840" data-name="Rectangle 17840" width="97.377" height="393.962" transform="translate(60.227 438.611) rotate(150)" fill="url(#linear-gradient-8)"/>
+    </g>
+    <g id="Group_37187" data-name="Group 37187" transform="translate(-1027.147 -62.097)">
+      <g transform="matrix(1, 0, 0, 1, 1027.15, 62.1)" filter="url(#Rectangle_18320)">
+        <rect id="Rectangle_18320-2" data-name="Rectangle 18320" width="342" height="330" rx="10" transform="translate(17 186)" fill="#fff"/>
+      </g>
+      <g id="Group_37181" data-name="Group 37181" transform="translate(1057.83 266.152)">
+        <g id="Path_55562" data-name="Path 55562" fill="#fff">
+          <path d="M 309.4482727050781 44.44778060913086 L 5.186299324035645 44.44778060913086 C 2.602260828018188 44.44778060913086 0.4999915063381195 42.34550857543945 0.4999915063381195 39.76150894165039 L 0.4999915063381195 5.186278820037842 C 0.4999915063381195 2.602278709411621 2.602260828018188 0.5000094771385193 5.186299324035645 0.5000094771385193 L 309.4482727050781 0.5000094771385193 C 312.0322570800781 0.5000094771385193 314.134521484375 2.602278709411621 314.134521484375 5.186278820037842 L 314.134521484375 39.76150894165039 C 314.134521484375 42.34550857543945 312.0322570800781 44.44778060913086 309.4482727050781 44.44778060913086 Z" stroke="none"/>
+          <path d="M 5.186248779296875 1.000019073486328 C 2.877960205078125 1.000019073486328 1 2.877979278564453 1 5.186267852783203 L 1 39.76152038574219 C 1 42.06980895996094 2.877960205078125 43.94776916503906 5.186248779296875 43.94776916503906 L 309.4482116699219 43.94776916503906 C 311.7565612792969 43.94776916503906 313.634521484375 42.06980895996094 313.634521484375 39.76152038574219 L 313.634521484375 5.186267852783203 C 313.634521484375 2.877979278564453 311.7565612792969 1.000019073486328 309.4482116699219 1.000019073486328 L 5.186248779296875 1.000019073486328 M 5.186248779296875 1.9073486328125e-05 L 309.4482116699219 1.9073486328125e-05 C 312.3125610351563 1.9073486328125e-05 314.634521484375 2.321975708007813 314.634521484375 5.186267852783203 L 314.634521484375 39.76152038574219 C 314.634521484375 42.62581253051758 312.3125610351563 44.94776916503906 309.4482116699219 44.94776916503906 L 5.186248779296875 44.94776916503906 C 2.32196044921875 44.94776916503906 0 42.62581253051758 0 39.76152038574219 L 0 5.186267852783203 C 0 2.321975708007813 2.32196044921875 1.9073486328125e-05 5.186248779296875 1.9073486328125e-05 Z" stroke="none" fill="#cecece"/>
+        </g>
+        <text id="Email" transform="translate(17.317 26.945)" fill="#c8c8c8" font-size="12" font-family="Poppins-Regular, Poppins" letter-spacing="0.029em"><tspan x="0" y="0">Email</tspan></text>
+      </g>
+      <g id="Group_37186" data-name="Group 37186" transform="translate(1057.83 324.065)">
+        <g id="Path_55562-2" data-name="Path 55562" transform="translate(0 0)" fill="#fff">
+          <path d="M 309.4482727050781 44.44778060913086 L 5.186299324035645 44.44778060913086 C 2.602260828018188 44.44778060913086 0.4999915063381195 42.34550857543945 0.4999915063381195 39.76150894165039 L 0.4999915063381195 5.186278820037842 C 0.4999915063381195 2.602278709411621 2.602260828018188 0.5000094771385193 5.186299324035645 0.5000094771385193 L 309.4482727050781 0.5000094771385193 C 312.0322570800781 0.5000094771385193 314.134521484375 2.602278709411621 314.134521484375 5.186278820037842 L 314.134521484375 39.76150894165039 C 314.134521484375 42.34550857543945 312.0322570800781 44.44778060913086 309.4482727050781 44.44778060913086 Z" stroke="none"/>
+          <path d="M 5.186248779296875 1.000019073486328 C 2.877960205078125 1.000019073486328 1 2.877979278564453 1 5.186267852783203 L 1 39.76152038574219 C 1 42.06980895996094 2.877960205078125 43.94776916503906 5.186248779296875 43.94776916503906 L 309.4482116699219 43.94776916503906 C 311.7565612792969 43.94776916503906 313.634521484375 42.06980895996094 313.634521484375 39.76152038574219 L 313.634521484375 5.186267852783203 C 313.634521484375 2.877979278564453 311.7565612792969 1.000019073486328 309.4482116699219 1.000019073486328 L 5.186248779296875 1.000019073486328 M 5.186248779296875 1.9073486328125e-05 L 309.4482116699219 1.9073486328125e-05 C 312.3125610351563 1.9073486328125e-05 314.634521484375 2.321975708007813 314.634521484375 5.186267852783203 L 314.634521484375 39.76152038574219 C 314.634521484375 42.62581253051758 312.3125610351563 44.94776916503906 309.4482116699219 44.94776916503906 L 5.186248779296875 44.94776916503906 C 2.32196044921875 44.94776916503906 0 42.62581253051758 0 39.76152038574219 L 0 5.186267852783203 C 0 2.321975708007813 2.32196044921875 1.9073486328125e-05 5.186248779296875 1.9073486328125e-05 Z" stroke="none" fill="#cecece"/>
+        </g>
+        <text id="Enter_your_password" data-name="Enter your password" transform="translate(17.317 27.031)" fill="#c8c8c8" font-size="12" font-family="Poppins-Regular, Poppins" letter-spacing="0.029em"><tspan x="0" y="0">Enter your password</tspan></text>
+      </g>
+      <text id="Don_t_have_an_account_Sign_up" data-name="Don&apos;t have an account? Sign up" transform="translate(1058.147 553.097)" fill="#313131" font-size="11" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Don&apos;t have an account?</tspan><tspan y="0" fill="#505050"> </tspan><tspan y="0" fill="#07f">Sign up</tspan></text>
+      <g id="Group_1094" data-name="Group 1094" transform="translate(1057.83 400.995)">
+        <rect id="Rectangle_30" data-name="Rectangle 30" width="314" height="40" rx="4" transform="translate(0.317 0.101)" fill="#009e6a"/>
+        <g id="Group_37141" data-name="Group 37141" transform="translate(141.759 11.237)">
+          <text id="Login" transform="translate(13.559 11.864)" fill="#fff" font-size="11" font-family="Poppins-Regular, Poppins"><tspan x="-14.487" y="0">Login</tspan></text>
+        </g>
+      </g>
+      <g id="Group_37185" data-name="Group 37185" transform="translate(1057.83 453.723)">
+        <g id="Group_37182" data-name="Group 37182" transform="translate(0 25.067)">
+          <g id="Rectangle_18319" data-name="Rectangle 18319" transform="translate(0.317 0.307)" fill="#fff" stroke="#cecece" stroke-width="1">
+            <rect width="96" height="45" rx="6" stroke="none"/>
+            <rect x="0.5" y="0.5" width="95" height="44" rx="5.5" fill="none"/>
+          </g>
+          <path id="ic_phone_24px" d="M5.658,8.72A11.123,11.123,0,0,0,10.5,13.558l1.615-1.615a.73.73,0,0,1,.749-.176,8.376,8.376,0,0,0,2.621.419.736.736,0,0,1,.734.734v2.563a.736.736,0,0,1-.734.734A12.481,12.481,0,0,1,3,3.734.736.736,0,0,1,3.734,3H6.3a.736.736,0,0,1,.734.734,8.341,8.341,0,0,0,.419,2.621.737.737,0,0,1-.184.749Z" transform="translate(38.364 13.136)" fill="#00c528" stroke="#00c528" stroke-width="1"/>
+        </g>
+        <g id="Group_37184" data-name="Group 37184" transform="translate(217.824 25.067)">
+          <g id="Rectangle_18322" data-name="Rectangle 18322" transform="translate(0.494 0.307)" fill="#fff" stroke="#cecece" stroke-width="1">
+            <rect width="95" height="45" rx="6" stroke="none"/>
+            <rect x="0.5" y="0.5" width="94" height="44" rx="5.5" fill="none"/>
+          </g>
+          <g id="facebook" transform="translate(43.48 14.532)">
+            <path id="facebook-2" data-name="facebook" d="M8.873,18.923h3.458V12h3.115l.342-3.441H12.331V6.822a.864.864,0,0,1,.864-.864h2.593V2.5H13.195A4.322,4.322,0,0,0,8.873,6.822V8.559H7.144L6.8,12H8.873Z" transform="translate(-6.802 -2.5)" fill="#08f"/>
+          </g>
+        </g>
+        <g id="Group_37183" data-name="Group 37183" transform="translate(108.912 25.067)">
+          <g id="Rectangle_18321" data-name="Rectangle 18321" transform="translate(0.405 0.307)" fill="#fff" stroke="#cecece" stroke-width="1">
+            <rect width="96" height="45" rx="6" stroke="none"/>
+            <rect x="0.5" y="0.5" width="95" height="44" rx="5.5" fill="none"/>
+          </g>
+          <g id="Group_37180" data-name="Group 37180" transform="translate(40.278 15.231)">
+            <path id="Path_55563" data-name="Path 55563" d="M188.531,253.981l2.222-2.222a7.536,7.536,0,0,0-7.231-1.806,7.9,7.9,0,0,0-5.022,4.028l2.533,2.045a4.878,4.878,0,0,1,3.395-3.12A4.47,4.47,0,0,1,188.531,253.981Z" transform="translate(-177.651 -249.694)" fill="#e41200"/>
+            <path id="Path_55564" data-name="Path 55564" d="M163.528,336.6l2.569-1.987a4.914,4.914,0,0,1-.018-3.07l-2.533-2.046A7.874,7.874,0,0,0,163.528,336.6Z" transform="translate(-162.697 -325.214)" fill="#fbbb00"/>
+            <path id="Path_55565" data-name="Path 55565" d="M180.736,424.75a4.79,4.79,0,0,0,7.144,2.511l2.5,1.907a7.479,7.479,0,0,1-6.7,1.746,7.267,7.267,0,0,1-5.51-4.176Z" transform="translate(-177.336 -415.348)" fill="#009227"/>
+            <path id="Path_55566" data-name="Path 55566" d="M313.257,370.654a3.182,3.182,0,0,1-1.571,2.511l2.5,1.907a7.7,7.7,0,0,0,2.157-7.488H309v3.071Z" transform="translate(-301.142 -361.251)" fill="#005af0"/>
+          </g>
+        </g>
+        <line id="Line_92" data-name="Line 92" x2="138.301" transform="translate(8.212 6.483)" fill="none" stroke="#efefef" stroke-width="1"/>
+        <line id="Line_106" data-name="Line 106" x2="138.301" transform="translate(168.122 6.483)" fill="none" stroke="#efefef" stroke-width="1"/>
+        <text id="OR" transform="translate(157.317 9.374)" fill="#d4d4d4" font-size="9" font-family="Poppins-Regular, Poppins"><tspan x="-6.273" y="0">OR</tspan></text>
+      </g>
+      <text id="Forgot_password_" data-name="Forgot password?" transform="translate(1369.147 384.097)" fill="#07f" font-size="10" font-family="Poppins-Regular, Poppins" letter-spacing="0.029em"><tspan x="-93.28" y="0">Forgot password?</tspan></text>
+    </g>
+    <text id="www.lorem.com" transform="translate(188 758)" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="-48.396" y="0">www.lorem.com</tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua._" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing 
+elit, sed do eiusmod tempor incididunt ut labore
+et dolore magna aliqua. " transform="translate(39 124)" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Lorem ipsum dolor sit amet, consectetur adipiscing </tspan><tspan x="0" y="18">elit, sed do eiusmod tempor incididunt ut labore</tspan><tspan x="0" y="36">et dolore magna aliqua. </tspan></text>
+    <text id="LOGO" transform="translate(39 73)" fill="#fff" font-size="25" font-family="Poppins-Bold, Poppins" font-weight="700" letter-spacing="0.025em"><tspan x="0" y="0">LOGO</tspan></text>
+  </g>
+</svg>
