@@ -28,6 +28,7 @@ const useStyles = makeStyles(() => ({
        backgroundColor:'#F6FCFF',
        padding:'20px' ,     
        boxShadow:'none',
+       zIndex:'0'
    }
 
 

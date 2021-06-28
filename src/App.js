@@ -8,17 +8,6 @@ function App() {
     <>
         <Navbar/>
         <Home id="home"/>
-    {/* <Router>
-      <Switch>
-        <Route exact path="/">
-          <Home id="home"/>
-        </Route>
-        <Route exact path="/navbar" render={()=> (
-          <Navbar/>
-          )}>
-        </Route>
-      </Switch>
-    </Router> */}
     </>
   );
 }

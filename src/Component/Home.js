@@ -3,10 +3,9 @@ import React from 'react'
 import Typical from 'react-typical'
 import Navbar from "./Navbar";
 import Me from '../image/Me.png'
-import Galery from "./Galery";
+import Portfolio from "./Portfolio";
 import ContactMe from "./ContactMe";
 import Footer from "./Footer";
-import MobileGallery from "./MobileGallery";
 import JohnPauloMoreno_CV from '../file/John Paulo Moreno CV.pdf'
 
 const theme = createMuiTheme({
@@ -91,8 +90,7 @@ const Home = () => {
                     </Container>
                 </Box>
             </ThemeProvider>
-            <Galery/>
-            <MobileGallery/>
+            <Portfolio/>
             <ContactMe/>
             <Footer/>
         </>

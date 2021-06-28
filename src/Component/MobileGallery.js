@@ -2,10 +2,8 @@ import React,{useState,useCallback,} from 'react'
 import { Container, createMuiTheme, makeStyles, Box, Typography } from '@material-ui/core';
 import { ThemeProvider } from '@material-ui/core/styles';
 import ImageViewer from 'react-simple-image-viewer';
-import one from '../svg/mobile business.svg'
-import two from '../svg/mobile paymeshare.svg'
-import three from '../svg/mobile teambond.svg'
-import four from '../svg/mobile teambond1.svg'
+import one from '../image/mbv1.png'
+import two from '../image/mpv1.png'
 
 
 const theme = createMuiTheme({
@@ -49,8 +47,7 @@ const MobileGallery = () => {
     const styles =useStyles();
     const [currentImage, setCurrentImage] = useState(0);
     const [isViewerOpen, setIsViewerOpen] = useState(false);
-    const images = [ 
-        one, two, three, four
+    const images = [ one, two
     ];
     const openImageViewer = useCallback(index => {
         setCurrentImage(index);
@@ -64,13 +61,6 @@ const MobileGallery = () => {
     return (
         <>
         <ThemeProvider theme={theme}>
-            <Box style={{height:'700px', backgroundColor:'#F6FCFF'}}>
-            <Box display="flex" justifyContent="center">
-                    <Typography className={styles.title}>Mobile</Typography>
-                </Box>  
-                <Box display="flex" justifyContent="center">
-                    <Typography className={styles.description} >Mobile Design</Typography>
-                </Box>
                 <Container display="flex">
                     <div>
                         {images.map((src, index) => (
@@ -78,7 +68,7 @@ const MobileGallery = () => {
                             src={src}
                             onClick={() => openImageViewer(index)}
                             key={index}
-                            style={{ margin: "5px",height:'280px', width:'280px',  }}
+                            style={{ margin: "10px",height:'400px', width:'200px',  }}
                             />
                         ))}
 
@@ -94,7 +84,6 @@ const MobileGallery = () => {
                         )}
                         </div>
                 </Container>
-            </Box>
         </ThemeProvider>
         </>
     )
