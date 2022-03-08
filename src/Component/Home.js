@@ -1,12 +1,12 @@
 import { Container, Box, Grid, Typography, createMuiTheme, makeStyles, ThemeProvider, withStyles, Button} from "@material-ui/core";
 import React from 'react'
 import Typical from 'react-typical'
-import Navbar from "./Navbar";
-import Me from '../image/Me.png'
-import Portfolio from "./Portfolio";
-import ContactMe from "./ContactMe";
-import Footer from "./Footer";
-import JohnPauloMoreno_CV from '../file/John Paulo Moreno CV.pdf'
+// import Navbar from "./Navbar";
+import Me from '../assets/image/Me.png'
+// import Portfolio from "./Portfolio";
+// import ContactMe from './ContactMe';
+// import Footer from "./Footer";
+import JohnPauloMoreno_CV from '../assets/file/John Paulo Moreno CV.pdf'
 
 const theme = createMuiTheme({
     typography:{
@@ -66,7 +66,7 @@ const Home = () => {
     const styles =useStyles()
     return(
         <>  
-        <Navbar/>
+        {/* <Navbar/> */}
             <ThemeProvider theme={theme} id="home">
                 <Box style={{backgroundColor:'#F6FCFF'}}>
                     <Container style={{height:'95vh',display: 'flex'}}>
@@ -90,9 +90,9 @@ const Home = () => {
                     </Container>
                 </Box>
             </ThemeProvider>
-            <Portfolio/>
+            {/* <Portfolio/>
             <ContactMe/>
-            <Footer/>
+            <Footer/> */}
         </>
     )
 }

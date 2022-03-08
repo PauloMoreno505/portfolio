@@ -1,15 +1,13 @@
-import './App.css';
-import Navbar from './Component/Navbar'
-import Home from './Component/Home'
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import Index from './component/Index'
+import { Box } from '@material-ui/core';
 
 function App() {
-  return (
-    <>
-        <Navbar/>
-        <Home id="home"/>
-    </>
-  );
+	return (
+		<Box>
+			<Index/>
+		</Box>
+	);
 }
 
 
