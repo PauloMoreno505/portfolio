@@ -10,7 +10,6 @@ import landing from '../../assets/image/landing.png'
 const PcHome = () => {
     
     return (
-
         <Box sx={{backgroundColor:'#1C1C1C', height: '600px', maxHeight: '100%'}}>
             <Container>
                 <Grid container>
