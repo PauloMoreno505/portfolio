@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+  margin: 0;
+  font-family: 'Poppins';
+  width: 100% !important;
+  height: 100% !important;
+  color: #0A0A0A !important
+}
+.map {
+  width: 100% !important;
+  height: '400px' !important;
+
+}
+.nav {
+  font-weight: 500;
+  color: #505050;
+  border-bottom: 3px solid #707070;
+}
+.nav :active {
+  font-weight: 500;
+  color: #505050;
+  border-bottom: 3px solid #707070;
+}
+
+.loader {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* core Loader */
+.core-loader {
+  width:50px;
+  height:12px;
+  background: 
+    radial-gradient(circle closest-side,#0A0A0A 90%,#0000) 0%   50%,
+    radial-gradient(circle closest-side,#0A0A0A 90%,#0000) 50%  50%,
+    radial-gradient(circle closest-side,#0A0A0A 90%,#0000) 100% 50%;
+  background-size:calc(100%/3) 100%;
+  background-repeat: no-repeat;
+  animation:d7 1s infinite linear;
+}
+@keyframes d7 {
+    33%{background-size:calc(100%/3) 0%  ,calc(100%/3) 100%,calc(100%/3) 100%}
+    50%{background-size:calc(100%/3) 100%,calc(100%/3) 0%  ,calc(100%/3) 100%}
+    66%{background-size:calc(100%/3) 100%,calc(100%/3) 100%,calc(100%/3) 0%  }
+}
+
+/* Button loader */
+.custom-loader {
+  width:50px;
+  height:12px;
+  background: 
+    radial-gradient(circle closest-side,#FFFFFF 90%,#0000) 0%   50%,
+    radial-gradient(circle closest-side,#FFFFFF 90%,#0000) 50%  50%,
+    radial-gradient(circle closest-side,#FFFFFF 90%,#0000) 100% 50%;
+  background-size:calc(100%/3) 100%;
+  background-repeat: no-repeat;
+  animation:d7 1s infinite linear;
+}
+@keyframes d7 {
+    33%{background-size:calc(100%/3) 0%  ,calc(100%/3) 100%,calc(100%/3) 100%}
+    50%{background-size:calc(100%/3) 100%,calc(100%/3) 0%  ,calc(100%/3) 100%}
+    66%{background-size:calc(100%/3) 100%,calc(100%/3) 100%,calc(100%/3) 0%  }
+}
+
+
