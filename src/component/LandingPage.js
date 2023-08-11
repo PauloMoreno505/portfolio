@@ -1,6 +1,6 @@
 import { Box, Button, Container, Grid, useMediaQuery } from '@mui/material'
 import lacnding_image from '../assets/image/landing_image.png'
-import JohnPauloMoreno_CV from '../assets/file/Paulo Moreno - CV.pdf'
+import JohnPauloMoreno_CV from '../assets/file/John Paulo Moreno CV.pdf'
 import { Fade } from "react-awesome-reveal";
 
 export const LandingPage = () => {
