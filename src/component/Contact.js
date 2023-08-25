@@ -64,8 +64,8 @@ export const Contact = () => {
             <Container maxWidth="lg">
                 <Grid container spacing={8}>
                     <Grid item lg={6} md={6} sm={12} xs={12}>
+                        <Fade direction="up" cascade triggerOnce> 
                             <Box component="form" ref={form} width="100%" display="flex" flexDirection="column" gap={3}>
-                                <Fade direction="up" cascade triggerOnce> 
                                     <TextField
                                         onChange={(e) => setFormData({...formData, name: e.target.value})}
                                         name="user_name"
@@ -223,8 +223,8 @@ export const Contact = () => {
                                                 }
                                         </Button>
                                     </Box>
-                                </Fade>
                             </Box>
+                        </Fade>
                     </Grid>
                     <Grid item lg={6} md={6} sm={12} xs={12} display="flex" justifyContent="end" flexDirection="column" >
                         <Fade direction="up" triggerOnce >

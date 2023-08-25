@@ -6,6 +6,32 @@ import { Fade } from "react-awesome-reveal";
 export const Project = () => {
     const small = useMediaQuery('(max-width:900px)');
    
+    const TotalExperience = (startDate, endDate) => {
+        const start = new Date(startDate)
+        const end = new Date(endDate)
+        if (start > end) {
+          return
+        }
+        
+        let years = end.getFullYear() - start.getFullYear()
+        let months = end.getMonth() - start.getMonth()
+        
+        if (months < 0) {
+            years -= 1
+            months += 12
+        }
+
+        if (months === 0) {
+            return `${years}`
+        } else if (months !== 0){
+            return `${years} +`
+        }
+
+    };
+    
+    const startDate = new Date('2019-12-01')
+    const endDate = new Date()
+    const totalexp = TotalExperience(startDate, endDate);
 
     const protool = [
         {   
@@ -26,7 +52,7 @@ export const Project = () => {
         {name: 'Client', count: '2'},
         {name: 'Project', count: '2'},
         {name: 'Prog. Language', count: '4'},
-        {name: 'Experience', count: '3+'},
+        {name: 'Experience', count: totalexp},
     ]
 
     return (
