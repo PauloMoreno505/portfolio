@@ -1,7 +1,27 @@
 import { Box, Container, Grid, IconButton, Tooltip, useMediaQuery } from '@mui/material'
 import { OpenInNew } from '@mui/icons-material';
-import psllogo from '../assets/image/psl_logo.png'
 import { Fade } from "react-awesome-reveal";
+import { withStyles } from "@mui/styles";
+import css from '../assets/image/logo/CSS_logo.png'
+import html from '../assets/image/logo/HTML_logo.png'
+import js from '../assets/image/logo/JavaScript_logo.png'
+import react from '../assets/image/logo/React_logo.png'
+import mui from '../assets/image/logo/MUI_logo.png'
+import psllogo from '../assets/image/psl_logo.png'
+
+
+export const CSSToolTip = withStyles({
+    tooltip:{
+        backgroundColor: '#0A0A0A',
+        padding: '8px',
+        color: '#FFFFFF',
+        boxShadow:'0px 0px 12px rgba(0, 0, 0, 0.08) !important',
+        borderRadius: '6px'
+    },
+    arrow:{
+        color: '#0A0A0A'
+    }
+})(Tooltip)
 
 export const Project = () => {
     const small = useMediaQuery('(max-width:900px)');
@@ -39,14 +59,30 @@ export const Project = () => {
             name: 'POFPersonal',
             link:'https://personal.pofsis.com/',
             discreption:'POFPersonal is a platform that helps your personal growth to be 10x Bigger, 10x Faster, and 10x Higher.',
+            stacks: [
+                {logo: css, name: 'CSS'},
+                {logo: html, name: 'HTML'},
+                {logo: js, name: 'JavaScript'},
+                {logo: react, name: 'React JS'},
+                {logo: mui, name: 'Material UI'},
+            ]
         },
         {
             logo: psllogo,
             name:'POFPersonal Website',
             link:'https://personal-main.pofsis.com/',
             discreption:'POFPersonal Website is to develop extraordinary mindset to students, working professionals, and consultants to achieve their ultimate goals.',
+            stacks: [
+                {logo: css, name: 'CSS'},
+                {logo: html, name: 'HTML'},
+                {logo: js, name: 'JavaScript'},
+                {logo: react, name: 'React JS'},
+                {logo: mui, name: 'Material UI'},
+            ]
         },
     ]
+
+
 
     const pro = [
         {name: 'Client', count: '2'},
@@ -54,6 +90,7 @@ export const Project = () => {
         {name: 'Prog. Language', count: '4'},
         {name: 'Experience', count: totalexp},
     ]
+
 
     return (
         <Box height="100%" width="100%" py={small ? "40px" : "100px"} bgcolor="#F6F6F6">
@@ -79,14 +116,23 @@ export const Project = () => {
                                     <Box height="250px" borderRadius="1.5rem" border="0.5px solid #cecece" sx={{'&:hover':{background: '#F6F6F6'}}} p="24px"  >
                                         <Box display="flex" justifyContent="space-between" alignItems="center">
                                             <img src={v.logo} alt={v.logo} style={{width: '50px', height:'50px'}} />
-                                            <Tooltip title="Open Project" arrow placement="top">
+                                            <CSSToolTip title="Open Project" arrow placement="top">
                                                 <IconButton sx={{borderRadius:'8px'}} onClick={()=> window.open(v.link, "_blank")}>
                                                     <OpenInNew sx={{fontSize:'18px'}}/>
                                                 </IconButton>
-                                            </Tooltip>
+                                            </CSSToolTip>
                                         </Box>
                                         <Box fontSize="18px" fontWeight="600" my="12px">{v.name}</Box>
                                         <Box fontSize="14px">{v.discreption}</Box>
+                                        <Box mt="35px" display="flex" gap={3}>
+                                            {
+                                                v.stacks.map((d, i) => (
+                                                    <CSSToolTip key={i} title={d.name} arrow placement='top'>
+                                                        <img src={d.logo} alt="css" style={{height: '100%', maxHeight:'25px', objectFit:'contain', cursor:'pointer'}} />
+                                                    </CSSToolTip>
+                                                ))
+                                            }
+                                        </Box>
                                     </Box>
                                 </Fade>
                             </Grid>
