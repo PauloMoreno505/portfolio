@@ -56,8 +56,8 @@ export const About = () => {
                                 </p>
                             </Box>
                         </Fade>
+                        <Fade cascade direction="up" triggerOnce>
                             <Box height="100%" mt="24px" >
-                            <Fade cascade direction="up" triggerOnce>
                                 {
                                     info.map((v, i) => (
                                         <Grid key={i} container direction="row" justifyContent="center" alignItems="flex-start">
@@ -70,8 +70,8 @@ export const About = () => {
                                         </Grid>
                                     ))
                                 }
-                            </Fade>
                             </Box>
+                        </Fade>
                     </Grid>
                 </Grid>
             </Container>
