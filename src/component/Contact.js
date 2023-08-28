@@ -26,7 +26,6 @@ export const Contact = () => {
                 setisLoad(true)
                 emailjs.sendForm('service_80yhjh1', 'template_qhixp2m', form.current, 'sCalrv-URE9OSlCjK')
                 .then((result) => {
-                    console.log(result);
                     if (result.text === 'OK') {
                         setisAlert(true)
                         setFormData({...formData, name: '', email: '', subject:'', message: ''})
