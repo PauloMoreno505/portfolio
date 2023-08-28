@@ -11,8 +11,8 @@ export const Core = () => {
             setloader(false)
         }, 1000);
         
-        console.log(`My Website V1.0.01 is running`);
-        console.log('Last Update - 8/5/2023');
+        console.log(`My Website V1.0.02 is running`);
+        console.log('Last Update - 8/28/2023');
 
         // eslint-disable-next-line 
     }, [])
