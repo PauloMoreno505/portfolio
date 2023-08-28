@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.887a6111.css",
-    "main.js": "/portfolio/static/js/main.36998d7d.js",
+    "main.js": "/portfolio/static/js/main.b4d0399d.js",
     "static/js/787.ebf51d90.chunk.js": "/portfolio/static/js/787.ebf51d90.chunk.js",
     "static/media/Paulo Moreno CV.pdf": "/portfolio/static/media/Paulo Moreno CV.9c67f83ff2fbea396f4b.pdf",
     "static/media/landing_image.png": "/portfolio/static/media/landing_image.79a921ddc5f0adea1989.png",
@@ -13,11 +13,11 @@
     "static/media/CSS_logo.png": "/portfolio/static/media/CSS_logo.5d3f585222f506795d53.png",
     "index.html": "/portfolio/index.html",
     "main.887a6111.css.map": "/portfolio/static/css/main.887a6111.css.map",
-    "main.36998d7d.js.map": "/portfolio/static/js/main.36998d7d.js.map",
+    "main.b4d0399d.js.map": "/portfolio/static/js/main.b4d0399d.js.map",
     "787.ebf51d90.chunk.js.map": "/portfolio/static/js/787.ebf51d90.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.887a6111.css",
-    "static/js/main.36998d7d.js"
+    "static/js/main.b4d0399d.js"
   ]
 }
